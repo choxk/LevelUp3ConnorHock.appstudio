@@ -42,6 +42,14 @@
           "!type": "External", 
           "file": [
             "forms", 
+            "sampleRun", 
+            "sampleRun.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
             "instructions", 
             "instructions.json"
           ]
