@@ -11,3 +11,15 @@ alert(`A home loan for ${homeLoanAmount} over ${homeLoanYears} years at a ${home
 let homeLoanAmount = Number(prompt("Please enter your loan amount (without $ sign)."));
 let homeLoanYears = Number(prompt("Please enter your mortage length (in years)."));
 let homeInterestRate = Number(prompt("Please enter your interest rate (without % sign)."));
+
+
+
+/*
+if (homeLoanYears ===15 ) {
+        alert("Thank you for selecting the monthly car loan payment calculator.");
+    } else if (chooseCalculator == "house") {
+        alert("Thank you for selecting the monthly house loan payment calculator.");
+    } else {
+        alert("Invalid Input. Have a nice day.");
+    }
+*/
