@@ -10,4 +10,7 @@ function carLoanPayment(carLoanAmount, carLoanMonths, carInterestRate) {
 };
 
 let monthlyCarPayment = carLoanPayment(carLoanAmount, carLoanMonths, carInterestRate);
-alert(`A car loan for $${carLoanAmount} over ${carLoanMonths} months at a ${carInterestRate}% interest rate would have a monthly payment of $${monthlyCarPayment}.`);
+alert(`A car loan for $${carLoanAmount} over ${carLoanMonths} months at a ${carInterestRate}% interest rate would have a monthly payment of $${monthlyCarPayment.toFixed(2)}.`);
+
+
+// SHOULD BE: A car loan for $30,000 over 60 months at 3.2% interest would have a monthly payment of $__.
