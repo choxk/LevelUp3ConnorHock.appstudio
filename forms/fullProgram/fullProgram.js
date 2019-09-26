@@ -11,3 +11,22 @@ let chooseCalculator = prompt("Please enter which calculator you would like to u
     } else {
         alert("Invalid Input. Have a nice day.");
     };
+    
+    
+    
+// maybe use Continue statement to skip calculator
+
+/*
+// After getting calculation --> 
+
+let exitCommand = prompt("Please enter: 'go' if you wish to do another calculation, or 'exit' if you wish to leave.");
+      if (exitCommand == "go") {
+          // LOOP TO beginning
+      } else if (exitCommand == "exit") {
+          alert("Thank you for selecting the monthly house loan payment calculator.");
+          // END LOOP AND KILL
+      } else {
+          alert("Invalid Input. Have a nice day.");
+          // END LOOP AND KILL
+      };
+*/
